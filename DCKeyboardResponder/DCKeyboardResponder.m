@@ -1,9 +1,9 @@
 //
 //  DCKeyboardResponder.m
-//  MobileTss
+//  DCKeyboardResponder
 //
-//  Created by Davis Chung on 10/6/15.
-//  Copyright (c) 2015 ATAL. All rights reserved.
+//  Created by Davis Chung on 5/8/15.
+//  Copyright (c) 2015 Davis Chung. All rights reserved.
 //
 
 #import "DCKeyboardResponder.h"
