@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB2A6CA1B72026200B009A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6C91B72026200B009A2 /* main.m */; };
+		DAB2A6CD1B72026200B009A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6CC1B72026200B009A2 /* AppDelegate.m */; };
+		DAB2A6D51B72026200B009A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB2A6D41B72026200B009A2 /* Images.xcassets */; };
+		DAB2A6D81B72026200B009A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB2A6D61B72026200B009A2 /* LaunchScreen.xib */; };
+		DAB2A6F11B7203ED00B009A2 /* DCTypeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6EF1B7203ED00B009A2 /* DCTypeListVC.m */; };
+		DAB2A6F21B7203ED00B009A2 /* DCTypeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB2A6F01B7203ED00B009A2 /* DCTypeListVC.xib */; };
+		DAB2A6F61B72068100B009A2 /* DCScrollViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6F41B72068100B009A2 /* DCScrollViewDemoVC.m */; };
+		DAB2A6F71B72068100B009A2 /* DCScrollViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB2A6F51B72068100B009A2 /* DCScrollViewDemoVC.xib */; };
+		DAB2A6FB1B72068F00B009A2 /* DCTableViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6F91B72068F00B009A2 /* DCTableViewDemoVC.m */; };
+		DAB2A6FC1B72068F00B009A2 /* DCTableViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB2A6FA1B72068F00B009A2 /* DCTableViewDemoVC.xib */; };
+		DAB2A7001B72087F00B009A2 /* DCKeyboardResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB2A6FF1B72087F00B009A2 /* DCKeyboardResponder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAB2A6C41B72026200B009A2 /* DCKeyboardResponderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCKeyboardResponderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2A6C81B72026200B009A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2A6C91B72026200B009A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB2A6CB1B72026200B009A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB2A6CC1B72026200B009A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB2A6D41B72026200B009A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAB2A6D71B72026200B009A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAB2A6E21B72026200B009A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB2A6E31B72026200B009A2 /* DCKeyboardResponderExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCKeyboardResponderExampleTests.m; sourceTree = "<group>"; };
+		DAB2A6ED1B72031B00B009A2 /* DCKeyboardResponderExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCKeyboardResponderExample-Prefix.pch"; sourceTree = "<group>"; };
+		DAB2A6EE1B7203ED00B009A2 /* DCTypeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTypeListVC.h; sourceTree = "<group>"; };
+		DAB2A6EF1B7203ED00B009A2 /* DCTypeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTypeListVC.m; sourceTree = "<group>"; };
+		DAB2A6F01B7203ED00B009A2 /* DCTypeListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCTypeListVC.xib; sourceTree = "<group>"; };
+		DAB2A6F31B72068100B009A2 /* DCScrollViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScrollViewDemoVC.h; sourceTree = "<group>"; };
+		DAB2A6F41B72068100B009A2 /* DCScrollViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScrollViewDemoVC.m; sourceTree = "<group>"; };
+		DAB2A6F51B72068100B009A2 /* DCScrollViewDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCScrollViewDemoVC.xib; sourceTree = "<group>"; };
+		DAB2A6F81B72068F00B009A2 /* DCTableViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTableViewDemoVC.h; sourceTree = "<group>"; };
+		DAB2A6F91B72068F00B009A2 /* DCTableViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTableViewDemoVC.m; sourceTree = "<group>"; };
+		DAB2A6FA1B72068F00B009A2 /* DCTableViewDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCTableViewDemoVC.xib; sourceTree = "<group>"; };
+		DAB2A6FE1B72087F00B009A2 /* DCKeyboardResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCKeyboardResponder.h; sourceTree = "<group>"; };
+		DAB2A6FF1B72087F00B009A2 /* DCKeyboardResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCKeyboardResponder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB2A6C11B72026200B009A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB2A6BB1B72026200B009A2 = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6C61B72026200B009A2 /* DCKeyboardResponderExample */,
+				DAB2A6E01B72026200B009A2 /* DCKeyboardResponderExampleTests */,
+				DAB2A6C51B72026200B009A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB2A6C51B72026200B009A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6C41B72026200B009A2 /* DCKeyboardResponderExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB2A6C61B72026200B009A2 /* DCKeyboardResponderExample */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6FD1B72087F00B009A2 /* DCKeyboardResponder */,
+				DAB2A6CB1B72026200B009A2 /* AppDelegate.h */,
+				DAB2A6CC1B72026200B009A2 /* AppDelegate.m */,
+				DAB2A6EE1B7203ED00B009A2 /* DCTypeListVC.h */,
+				DAB2A6EF1B7203ED00B009A2 /* DCTypeListVC.m */,
+				DAB2A6F01B7203ED00B009A2 /* DCTypeListVC.xib */,
+				DAB2A6F31B72068100B009A2 /* DCScrollViewDemoVC.h */,
+				DAB2A6F41B72068100B009A2 /* DCScrollViewDemoVC.m */,
+				DAB2A6F51B72068100B009A2 /* DCScrollViewDemoVC.xib */,
+				DAB2A6F81B72068F00B009A2 /* DCTableViewDemoVC.h */,
+				DAB2A6F91B72068F00B009A2 /* DCTableViewDemoVC.m */,
+				DAB2A6FA1B72068F00B009A2 /* DCTableViewDemoVC.xib */,
+				DAB2A6D41B72026200B009A2 /* Images.xcassets */,
+				DAB2A6D61B72026200B009A2 /* LaunchScreen.xib */,
+				DAB2A6C71B72026200B009A2 /* Supporting Files */,
+			);
+			path = DCKeyboardResponderExample;
+			sourceTree = "<group>";
+		};
+		DAB2A6C71B72026200B009A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6C81B72026200B009A2 /* Info.plist */,
+				DAB2A6C91B72026200B009A2 /* main.m */,
+				DAB2A6ED1B72031B00B009A2 /* DCKeyboardResponderExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB2A6E01B72026200B009A2 /* DCKeyboardResponderExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6E31B72026200B009A2 /* DCKeyboardResponderExampleTests.m */,
+				DAB2A6E11B72026200B009A2 /* Supporting Files */,
+			);
+			path = DCKeyboardResponderExampleTests;
+			sourceTree = "<group>";
+		};
+		DAB2A6E11B72026200B009A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6E21B72026200B009A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAB2A6FD1B72087F00B009A2 /* DCKeyboardResponder */ = {
+			isa = PBXGroup;
+			children = (
+				DAB2A6FE1B72087F00B009A2 /* DCKeyboardResponder.h */,
+				DAB2A6FF1B72087F00B009A2 /* DCKeyboardResponder.m */,
+			);
+			path = DCKeyboardResponder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB2A6C31B72026200B009A2 /* DCKeyboardResponderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB2A6E71B72026200B009A2 /* Build configuration list for PBXNativeTarget "DCKeyboardResponderExample" */;
+			buildPhases = (
+				DAB2A6C01B72026200B009A2 /* Sources */,
+				DAB2A6C11B72026200B009A2 /* Frameworks */,
+				DAB2A6C21B72026200B009A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCKeyboardResponderExample;
+			productName = DCKeyboardResponderExample;
+			productReference = DAB2A6C41B72026200B009A2 /* DCKeyboardResponderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB2A6BC1B72026200B009A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Davis Chung";
+				TargetAttributes = {
+					DAB2A6C31B72026200B009A2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DAB2A6BF1B72026200B009A2 /* Build configuration list for PBXProject "DCKeyboardResponderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB2A6BB1B72026200B009A2;
+			productRefGroup = DAB2A6C51B72026200B009A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB2A6C31B72026200B009A2 /* DCKeyboardResponderExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB2A6C21B72026200B009A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2A6D81B72026200B009A2 /* LaunchScreen.xib in Resources */,
+				DAB2A6D51B72026200B009A2 /* Images.xcassets in Resources */,
+				DAB2A6FC1B72068F00B009A2 /* DCTableViewDemoVC.xib in Resources */,
+				DAB2A6F71B72068100B009A2 /* DCScrollViewDemoVC.xib in Resources */,
+				DAB2A6F21B7203ED00B009A2 /* DCTypeListVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB2A6C01B72026200B009A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB2A6CD1B72026200B009A2 /* AppDelegate.m in Sources */,
+				DAB2A6CA1B72026200B009A2 /* main.m in Sources */,
+				DAB2A7001B72087F00B009A2 /* DCKeyboardResponder.m in Sources */,
+				DAB2A6F61B72068100B009A2 /* DCScrollViewDemoVC.m in Sources */,
+				DAB2A6FB1B72068F00B009A2 /* DCTableViewDemoVC.m in Sources */,
+				DAB2A6F11B7203ED00B009A2 /* DCTypeListVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB2A6D61B72026200B009A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB2A6D71B72026200B009A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB2A6E51B72026200B009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAB2A6E61B72026200B009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB2A6E81B72026200B009A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/$PROJECT_NAME/DCKeyboardResponderExample-Prefix.pch";
+				INFOPLIST_FILE = DCKeyboardResponderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB2A6E91B72026200B009A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/$PROJECT_NAME/DCKeyboardResponderExample-Prefix.pch";
+				INFOPLIST_FILE = DCKeyboardResponderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB2A6BF1B72026200B009A2 /* Build configuration list for PBXProject "DCKeyboardResponderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2A6E51B72026200B009A2 /* Debug */,
+				DAB2A6E61B72026200B009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB2A6E71B72026200B009A2 /* Build configuration list for PBXNativeTarget "DCKeyboardResponderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2A6E81B72026200B009A2 /* Debug */,
+				DAB2A6E91B72026200B009A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB2A6BC1B72026200B009A2 /* Project object */;
+}
